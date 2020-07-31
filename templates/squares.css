@@ -1,0 +1,28 @@
+.square {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.color1 {
+  background: COLOR1;
+}
+
+.color2 {
+  background: COLOR2;
+}
+
+.color3 {
+  background: COLOR3;
+}
+
+.color4 {
+  background: COLOR4;
+}
+
+.color5 {
+  background: COLOR5;
+}

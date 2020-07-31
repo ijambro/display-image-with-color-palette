@@ -1,0 +1,65 @@
+.grid {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 3fr 1fr 5fr;
+}
+
+.colorCol {
+  justify-self: end;
+}
+
+.posterCol {
+  background-image: url("IMAGE_URL");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+
+.color1 {
+  background: COLOR1;
+}
+
+.color2 {
+  background: COLOR2;
+}
+
+.color3 {
+  background: COLOR3;
+}
+
+.color4 {
+  background: COLOR4;
+}
+
+.color5 {
+  background: COLOR5;
+}
+
+.color6 {
+  background: COLOR6;
+}
+
+.color7 {
+  background: COLOR7;
+}
+
+.color8 {
+  background: COLOR8;
+}
+
+.color9 {
+  background: COLOR9;
+}
+
+.color10 {
+  background: COLOR10;
+}

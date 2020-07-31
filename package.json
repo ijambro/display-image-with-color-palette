@@ -1,0 +1,23 @@
+{
+  "name": "display-image-with-color-palette",
+  "version": "1.0.0",
+  "description": "Create an HTML page displaying any image alongside its color palette",
+  "main": "index.js",
+  "scripts": {
+    "lint": "semistandard --fix"
+  },
+  "author": "Jake Palmer",
+  "repository": {
+    "type": "GitHub",
+    "url": "https://github.com/ijambro?tab=repositories"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "get-image-colors": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^14.1.1",
+    "semistandard": "^14.2.0"
+  }
+}
