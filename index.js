@@ -4,12 +4,12 @@ const commandLineArgs = require('command-line-args');
 const getColors = require('get-image-colors');
 const { isArray } = require('util');
 
-const DEFAULT_IMG_DIR = '/Users/jakepalmer/Pictures/Vintage Art/Travel Posters';
+const DEFAULT_IMG_DIR = path.join(__dirname, 'input');
 const DEFAULT_OUTPUT_DIR = path.join(__dirname, 'output');
 
-console.log('-- vintage-travel-colors --');
+console.log('-- display-image-with-color-palette --');
 console.log();
-console.log('-- Analyze the color palette of any vintage travel poster! --');
+console.log('-- Create an HTML page displaying any image alongside its color palette! --');
 console.log();
 
 let options = commandLineArgs([
